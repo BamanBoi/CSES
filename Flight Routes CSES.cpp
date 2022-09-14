@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
-#define endl "\n"
 using namespace std;
 #define int long long int
- 
 int n, m, k;
 vector<vector<pair<int,int>>> g;
 vector<vector<int>> dist; 
@@ -44,8 +42,6 @@ void dij()
  
 int32_t main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
 	cin >> n >> m >> k;
 	g.resize(n+1);
 	dist.resize(n+1);
